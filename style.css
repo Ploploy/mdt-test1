@@ -1,0 +1,298 @@
+@import url('https://fonts.googleapis.com/css?family=BenchNine&display=swap');
+
+body{
+margin: 0px;
+padding: 0;
+
+background-color: #142d4c;
+}
+
+.portfolio{
+  color :wheat;
+  font-size:100px;
+  text-align: center;
+  background-color:black;
+  width: 100%;
+  display: block;
+  
+  font-family: 'Bebas Neue', cursive;
+ 
+}
+
+/*bg*/
+.bg-top{
+ 
+  background-image: linear-gradient(180deg,#142d4c,#096386,#00b7a8);
+
+  width: 100%;
+  height: 100%;
+}
+
+.bg-bottom{
+
+  background-image: linear-gradient(360deg,#142d4c,#096386,#00b7a8);
+  padding-bottom: 80px;
+  width: 100%;
+  height: 100%;
+}
+
+
+.container-img{
+  text-align: center;
+}
+
+.img-ploy{
+  text-align: center;
+  margin-top: 50px;
+  display: inline-block;
+}
+
+.img-ploy img{
+  border-radius: 50%;
+  width: 320px;
+  height: 350px;
+  display: inline-block;
+  
+}
+.container-name{
+  text-align: center;
+
+}
+
+.name h1{
+  font-size: 45px;
+  background-color: black;
+  color:wheat;
+  display: inline-block;
+  padding: 15px;
+  border-radius: 15px;
+  font-family: 'Bebas Neue', cursive;
+}
+
+
+
+.hobby_skill{
+  text-align: center;
+ margin-bottom: 50px ;
+ 
+}
+.move-hobby{
+  text-align: left;
+  display: inline-block;
+}
+.container-hobby{
+  border: 3px solid wheat;
+  display: inline-block;
+   padding: 20px;
+   margin-right: 200px;
+   background-color: #1F0322;
+   
+}
+.container-hobby h1{
+  text-align: center;
+  border: 5px solid #AF9BB6;
+  color: wheat;
+  font-size: 45px;
+  font-family: 'Bebas Neue', cursive;
+}
+.t1{
+  color :wheat;
+  font-size:30px;
+  text-align: left;
+  display: inline;
+  font-family: 'Poppins', sans-serif;
+}
+
+
+.move-skill{
+  text-align: center;
+  display: inline;
+}
+.container-skill{
+  border: 3px solid wheat;
+  display: inline-block;
+   padding: 20px;
+   background-color:#1A1D1A;
+  
+}
+.container-skill h1{
+  text-align: center;
+  border: 5px solid #8AB0AB;
+  color: wheat;
+  font-size: 45px;
+  
+  font-family: 'Bebas Neue', cursive;
+}
+.t2{
+  color :wheat;
+  font-size:30px;
+  text-align: left;
+  display: inline;
+  font-family: 'Poppins', sans-serif;
+}
+
+
+
+.move-attention{
+  text-align: center;
+  
+}
+.container-attention{
+  border: 3px solid wheat;
+  display: inline-block;
+   padding: 20px;
+   background-color:#0B132B;
+}
+.container-attention h1{
+  text-align: center;
+  border: 5px solid #30C4EE;
+  color: wheat;
+  font-size: 45px;
+  font-family: 'Bebas Neue', cursive;
+}
+.t3{
+  color :wheat;
+  font-size:30px;
+  text-align: left;
+  display: inline;
+  font-family: 'Poppins', sans-serif;
+}
+
+
+
+.next-project{
+  background-color: black;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+.button-next{
+  font-size: 30px;
+  padding: 10px;
+  
+  background-color:wheat;
+  border-radius: 100px;
+  border: 2px solid black;
+  
+}
+
+.button-next a{
+  color: black;
+  font-size: 45px;
+  font-family: 'Bebas Neue', cursive;
+  text-decoration: none;
+}
+
+a:hover{
+  color: brown;
+}
+.contact{
+  text-align: center;
+  padding-bottom: 10px;
+  background-color: black;
+}
+
+/*End Protfolio*/
+
+.bg-top-project{
+ 
+  background-image: linear-gradient(180deg,#220901,#621708,#941B0C,#BC3908);
+  width: 100%;
+  height: 100%;
+}
+
+.bg-bottom-project{
+  background-image: linear-gradient(360deg,#220901,#621708,#941B0C,#BC3908);
+  width: 100%;
+  height: 100%;
+}
+
+
+.uselessbox h1{
+  font-size: 100px;
+  color: wheat;
+  font-family: 'Bebas Neue', cursive;
+  text-align: center;
+  background-color: #000000;
+  margin: 0px;
+}
+.box-img1{
+  text-align: center;
+  margin-top: 40px;
+  margin-left: 150px;
+  
+}
+
+.img-project1 img{
+ 
+  width: 35%; 
+  padding-right: 70px;
+ 
+}
+
+.video-uselessbox{
+  text-align: center;
+  margin-top: 50px;
+}
+
+.head-uselessbox{
+  text-align: center;
+}
+
+.head-uselessbox h2{
+  font-size: 50px;
+  color: wheat;
+  font-family: 'Bebas Neue', cursive;
+  display: inline-block;
+  border: 5px solid #ffb6b9 ;
+  padding: 8px;
+  padding-bottom: 2px;
+}
+
+
+.move-text-uselessbox{
+ 
+  text-align: center;
+ 
+}
+
+.text-uselessbox{
+  
+  display: inline-block;
+  font-size:22px;
+  font-family: 'Poppins', sans-serif;
+  color: #e5dfdf;
+  border: 5px solid #F8DDA4;
+  text-align: left;
+  padding: 15px;
+}
+
+
+.back-portfolio{
+ 
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+.button-back{
+  font-size: 30px;
+  padding: 10px;
+  
+  background-color:wheat;
+  border-radius: 100px;
+  border: 5px solid #b52b65;
+  
+}
+
+.button-back a{
+  color: black;
+  font-size: 45px;
+  font-family: 'Bebas Neue', cursive;
+  text-decoration: none;
+}
+
+a:hover{
+  color: brown;
+}
